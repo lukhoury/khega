@@ -98,7 +98,7 @@ h1.tituloPrincipal:hover {
 p.textoEstudioMultimedial {
     color: rgba(151, 125, 254, 1);
     ;
-    font-size: 28px;
+    font-size: 2vw;
     font-weight: 300;
     text-align: left;
     position: absolute;
@@ -199,7 +199,7 @@ p.textoEstudioMultimedial {
 
 h2.tituloHabilidades {
     font-family: 'Poppins', sans-serif;
-    font-size: 64px;
+    font-size: 5vw;
     color: transparent;
     background: #6E6E6E;
 -webkit-background-clip: text;
