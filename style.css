@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+/*GENERALES*/
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #F3F3F3;
+}
+
+li {
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 4.5px;
+}
+
+/*NAVEGADOR*/
+.logoNav {
+    position: relative;
+    z-index: 5;
+  }
+  
+  .hidden-text {
+    opacity: 0;
+    transform: translateX(100%);
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+    z-index: 0;
+    font-family: 'Poppins', sans-serif;
+    color: transparent;
+    background: rgba(0, 0, 0, 0.15);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    text-shadow: 0px 3px 3px rgba(255, 255, 255, 0.5);
+    font-size: 50px;
+  }
+
+  
+  
+.navbar, .py-5{
+    background-color: #F3F3F3;
+}
+a.navbar{
+    margin-right: 50px;
+}
+.navegador {
+    display: flex;
+    margin: 24px;
+}
+
+.masthead {
+    height: 100vh;
+    min-height: 500px;
+    background-color: #F3F3F3;
+    /*background-image: url('https://source.unsplash.com/BtbjCFUvBXs/1920x1080');*/
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+/*TITULO*/
+
+.contenedorTitulo {
+    overflow: hidden;
+
+}
+
+
+h1.tituloPrincipal {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20vw;  /* Ajusta el valor según tus preferencias */
+    color: transparent;
+    background: rgba(0, 0, 0, 0.15);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    text-shadow: 0px 3px 3px rgba(255, 255, 255, 0.5);
+    position: relative;
+    overflow: hidden;
+    transition: color 0.7s;
+
+}
+
+h1.tituloPrincipal:hover {
+
+    background-size: 200% 100%;
+    color: #967BE9;
+    background-image: -webkit-linear-gradient(0deg, #967BE9 24%, #C9A4F6 30%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+
+}
+
+
+
+p.textoEstudioMultimedial {
+    color: rgba(151, 125, 254, 1);
+    ;
+    font-size: 28px;
+    font-weight: 300;
+    text-align: left;
+    position: absolute;
+    left: 14em;
+    letter-spacing: 4.5px;
+    top: 16em;
+}
+
+/*NOSOTROS*/
+
+.logoFondo {
+
+    border-radius: 50%;
+    -webkit-box-shadow: inset 0px 4px 16px -3px rgba(0, 0, 0, 0.21);
+    -moz-box-shadow: inset 0px 4px 16px -3px rgba(0, 0, 0, 0.21);
+    box-shadow: inset 0px 4px 16px -3px rgba(0, 0, 0, 0.21);
+
+}
+
+.presentacion {
+    font-size: 20px;
+    font-weight: 500;
+    padding: 15px;
+}
+
+.khegaPresentacion {
+    color: #967BE9;
+    background-image: -webkit-linear-gradient(0deg, #967BE9 24%, #C9A4F6 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+
+.cardPresentacion {
+    background-color: #F1F1F1;
+    border-radius: 50px;
+    padding: 3%;
+    -webkit-box-shadow: inset 0px 4px 16px -3px rgba(0, 0, 0, 0.21);
+    -moz-box-shadow: inset 0px 4px 16px -3px rgba(0, 0, 0, 0.21);
+    box-shadow: inset 0px 4px 16px -3px rgba(0, 0, 0, 0.21);
+}
+
+
+/*HABILIDADES */
+
+#separacionHabilidades {
+    color: #967BE9;
+    background-image: -webkit-linear-gradient(0deg, #967BE9 24%, #C9A4F6 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+
+}
+.marquee-container {
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .marquee {
+    display: flex;
+    white-space: nowrap;
+    animation: marquee-right 40s linear infinite; /* Duración duplicada para permitir un bucle suave */
+  }
+  
+  .marquee h4 {
+    margin-right: 25px;
+    letter-spacing: 4.5px;
+    display: inline-block;
+  }
+  
+  @keyframes marquee-right {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-200%); /* Duplicamos la distancia para permitir un bucle suave */
+    }
+  }
+  
+  .marquee.paused {
+    animation-play-state: paused; /* Detiene la animación al pasar el mouse */
+  }
+  
+  .list {
+    display: none; /* Oculta la lista inicialmente */
+  }
+  
+  .list h4 {
+    display: block; /* Muestra los elementos de la lista como bloques */
+    margin-bottom: 10px; /* Espacio entre los elementos de la lista */
+  }
+  
+  
+  
+
+
+h2.tituloHabilidades {
+    font-family: 'Poppins', sans-serif;
+    font-size: 64px;
+    color: transparent;
+    background: #6E6E6E;
+-webkit-background-clip: text;
+-moz-background-clip: text;
+background-clip: text;
+text-shadow: 0px 3px 3px rgba(255,255,255,0.5);
+}
+
+h4.marquee {
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    color: #e0e0e0;
+
+}
+
+.contenedorTitulosHabilidades {
+    padding: 5%;
+}
+
+/*PROYECTOS */
+
+button.proyectosBtn {
+    color: #977DFE;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 4.5px;
+
+}
+
+.row {
+    margin: 8px -16px;
+  }
+  
+  /* Add padding BETWEEN each column (if you want) */
+  .row,
+  .row > .column {
+    padding: 8px;
+  }
+  
+  /* Create three equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 33.33%;
+    display: none; /* Hide columns by default */
+  }
+  
+  /* Clear floats after rows */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Content */
+  .content {
+    background-color: white;
+    padding: 10px;
+  }
+  
+  /* The "show" class is added to the filtered elements */
+  .show {
+    display: block;
+  }
+  
+  /* Style the buttons */
+  .btn {
+    
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    background-color: white;
+    cursor: pointer;
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .btn:hover {
+    background-color: #ddd;
+  }
+  
+  /* Add a dark background color to the active button */
+  .btn.active {
+    background-color: #666;
+     color: white;
+  }
+
+
+
+  /* Agrega estilos según sea necesario */
+#portfolio {
+    padding: 60px 0;
+}
+
+#portfolio .btn-primary {
+    margin: 5px;
+}
+
+.portfolio-item {
+    overflow: hidden; /* Oculta cualquier contenido que se salga del contenedor */
+    border: 1px solid #ddd; /* Puedes agregar un borde para visualizar mejor el límite del contenedor */
+    margin-bottom: 20px;
+}
+
+.portfolio-item.hidden {
+    display: none;
+}
+.portfolio-item img {
+    max-width: 100%; /* La imagen no será más ancha que su contenedor */
+    height: auto;    /* Mantiene la proporción de aspecto original */
+}
